@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+aside {
+    background-color: #2b2d42;
+    grid-row: 1 / -1;
+}
+
+header {
+    background-color: #8d99ae;
+    grid-column: 2;
+}
+
+main {
+    background-color: #edf2f4;
+    grid-column: 2;
+}
