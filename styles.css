@@ -80,8 +80,7 @@ header {
 
     display: grid;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 20px;
 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     z-index: 10;
